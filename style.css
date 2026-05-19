@@ -165,16 +165,32 @@ gallery .grid {
   opacity: 0.9;
 }
 
-/* Konzept */
-.concept-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: center;
+/* Konzept*/
+.card {
+    width: 30%;       
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.concept img {
-  width: 100%;
+.concept {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+     margin-top: 60px; 
+}
+
+.card img {
+    width: 80%;
+    height: 30ch;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: block;
+    margin: 20px auto 0;
 }
 
 
@@ -209,4 +225,13 @@ gallery .grid {
 .contact a:hover {
   background: var(--text);
   color: var(--bg);
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  opacity: 0.6;
 }
