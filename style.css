@@ -99,3 +99,30 @@ p {
   font-size: 0.9rem;
 }
 
+
+<!-- Sections -- >
+section {
+  padding: 100px 10%;
+}
+
+
+<!-- Hero -- >
+.hero {
+  height: 100vh;
+  background: url("assets/img/TamaraBuetzer_04.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  color: white;
+  animation: fadeIn 1.5s ease;
+}
+
+.hero p {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
