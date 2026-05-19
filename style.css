@@ -155,6 +155,8 @@ section {
 /* Über */
 .about {
   text-align: center;
+  margin-top: 120px;
+  margin-bottom: 100px;
 }
 
 
@@ -238,29 +240,36 @@ section {
 
 .compare img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
+  margin-top: 50px;
 }
 
 
 
 /* Kontakt */
-.contact {
-  text-align: center;
+form {
+  max-width: 60rem;        
+  display: flex;
+  flex-direction: column;
+  gap: 10px;          
+  margin-bottom: 60px;  
+  margin: 0 auto 60px auto
+
 }
 
-.contact a {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
+form label {
+  font-weight: 500;
+}
+
+
+form input:focus,
+form textarea:focus {
+  outline: none;
   border: 1px solid var(--text);
-  text-decoration: none;
-  color: var(--text);
-  transition: 0.3s;
 }
 
-.contact a:hover {
-  background: var(--text);
-  color: var(--bg);
+form input {
+  height: 40 px;
 }
 
 

@@ -62,18 +62,20 @@
     
         <img src="assets/img/TamaraBuetzer_01.jpg" alt="Dossen">
         <img src="assets/img/TamaraBuetzer_02.jpg" alt="Hag">
+        <img src="assets/img/TamaraBuetzer_10.jpg" alt="Baumrinde">
         <img src="assets/img/TamaraBuetzer_03.jpg" alt="Schulhaus">
-        <img src="assets/img/TamaraBuetzer_04.jpg" alt="Ampel">
+        <img src="assets/img/TamaraBuetzer_12.jpg" alt="Röhren">
         <img src="assets/img/TamaraBuetzer_05.jpg" alt="Türsockel">
         <img src="assets/img/TamaraBuetzer_06.jpg" alt="Blumen">
         <img src="assets/img/TamaraBuetzer_07.jpg" alt="Kirche">
         <img src="assets/img/TamaraBuetzer_08.jpg" alt="Dachfenster">
         <img src="assets/img/TamaraBuetzer_09.jpg" alt="Ast">
-        <img src="assets/img/TamaraBuetzer_10.jpg" alt="Baumrinde">
+        <img src="assets/img/TamaraBuetzer_04.jpg" alt="Ampel">
         <img src="assets/img/TamaraBuetzer_11.jpg" alt="Röhre">
-        <img src="assets/img/TamaraBuetzer_12.jpg" alt="Röhren">
+        <img src="assets/img/DSC_0462.JPG" alt="Uhr">
         <img src="assets/img/TamaraBuetzer_13.jpg" alt="Moos">
         <img src="assets/img/TamaraBuetzer_14.jpg" alt="Baum">
+        <img src="assets/img/DSC_0386.JPG" alt="O">
       </div>
     </section>
 
@@ -122,11 +124,10 @@
 
 
     <!-- Vergleich -->
-    <section id="compare" class="compare">
-      <h2>Vergleich</h2>
-
-      <div class="compare-containe">
-        <div class="text">
+    
+<section id="compare" class="compare">
+  <h2>Vergleich</h2>
+  <div class="text">
           <p>
             Der Kreis steht im Zentrum dieser Serie als Symbol für Form,
             Wiederholung und Struktur. Durch gezielte Perspektiven und
@@ -134,11 +135,12 @@
           </p>
         </div>
 
-        <div class="image">
-          <img src="assets/img/TamaraBuetzer_10.jpg" alt="Baumrinde">
-        </div>
-      </div>
-    </section>
+  <div class="compare-container">
+    <img src="assets/img/DSC_0373.jpg" alt="Vorher">
+    <img src="assets/img/TamaraBuetzer_11.jpg" alt="Nachher">
+  </div>
+</section>
+
 
 <!-- KONTAKT -->
     <section id="contact" class="contact">
@@ -146,7 +148,23 @@
       <p>Tamara Bützer</p>
       <p>Fotografie Projekt</p>
 
-      <a href="mail:tamara.buetzer@gmail.com" class="bottom">Kontakt aufnehmen</a>
+        <form class="contact">
+          <label for="vorname">Vorname:</label>
+          <input type="text" id="vorname" name="vorname">
+
+          <label for="nachname">Nachname:</label>
+          <input type="text" id="nachname" name="nachname">
+
+          <label for="email">E-Mail:</label>
+          <input type="email" id="email" name="email">
+
+          <label for="nachricht">Nachricht:</label>
+          <textarea id="nachricht" name="nachricht"></textarea>
+
+          <button type="submit">Absenden</button>
+        </form>
+      </div>
+    </main>
     </section>
     
 </main>
