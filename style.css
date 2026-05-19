@@ -75,6 +75,17 @@ p {
   max-width: 600px;
 }
 
+section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section p {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
 
 /* Navigation */
 .navbar {
@@ -148,63 +159,88 @@ section {
 
 
 /* Galerie */
-gallery .grid {
+
+.gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 40px;
 }
 
 .gallery img {
   width: 100%;
+  height: 250px;
+  object-fit: cover;
   display: block;
-  transition: 0.3s;
+  transition: 0.4s;
+  border-radius: 8px;
 }
 
 .gallery img:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   opacity: 0.9;
 }
 
+
 /* Konzept*/
-.card {
-    width: 30%;       
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    text-align: center;
-}
 
 .concept {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-     margin-top: 60px; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 60px;
+  align-items: start;
 }
 
-.card img {
-    width: 80%;
-    height: 30ch;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-top: 20px;
-    display: block;
-    margin: 20px auto 0;
+.card {
+  background-color: #f4f4f4;
+  padding: 55px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+  margin-top: 80px;
 }
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin: 0 auto;
+}
+
+
+.card img {
+  width: 100%;
+  height: 550px;  
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+
 
 
 /* Vergleich */
+
 .compare-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  text-align: center;
+  align-items: center;
 }
 
 .compare img {
   width: 100%;
+  border-radius: 10px;
 }
+
 
 
 /* Kontakt */
