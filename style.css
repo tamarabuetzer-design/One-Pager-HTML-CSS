@@ -147,12 +147,18 @@ section {
   margin-bottom: 100px;
 }
 
-/* Zzahlen counter  */
+/* Zahlen counter  */
+
 .statsSection {
   background: #000;
   color: #fff;
-  padding: 100px 0;
+  padding: 100px 40px;
+  border-radius: 20px;
+
+  max-width: 900px;
+  margin: 100px auto;
 }
+
 
 .statsTitle {
   font-size: 1rem;
@@ -163,7 +169,7 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  padding: 0 10%;  /* Inhalt bleibt eingerückt */
+  padding: 0 10%; 
 }
 
 .stat {
@@ -177,32 +183,13 @@ section {
   margin-bottom: 30px;
 }
 
+
 /* Zahlen */
 .number {
-  height: 80px;
-  overflow: hidden;
-}
-  
-.number span {
-  display: block;
-  height: 80px;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
-
-/* Animation */
-.number {
-  height: 80px;
-  overflow: hidden;
-}
-
-@keyframes countUp {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(-300%);
-  }
-}
 
 
 /* Text darunter */
@@ -253,6 +240,7 @@ section {
   margin-top: 60px;
   align-items: start;
 }
+
 
 .card {
   background-color: var(--card-bg);
@@ -328,10 +316,13 @@ form {
 
 }
 
+.contact {
+  text-align: left;
+}
+
 form label {
   font-weight: 500;
 }
-
 
 form input:focus,
 form textarea:focus {
@@ -351,6 +342,10 @@ footer {
   font-size: 0.8rem;
   opacity: 0.6;
 }
+
+
+
+
 
 
 /* Responsiv */

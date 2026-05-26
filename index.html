@@ -10,6 +10,7 @@
 
 <!-- Styles -->
   <link rel="stylesheet" href="style.css">
+<script src="assets/js/main.js"></script>
 
         
 <!-- NAVIGATION -->
@@ -57,43 +58,28 @@
     <div class="stat">
       <div class="line"></div>
 
-      <div class="number">
-        <span>0</span>
-        <span>5</span>
-        <span>10</span>
-        <span>16</span>
-      </div>
+    <div class="number" data-target="27">0</div>
 
-      <h3>Fotos</h3>
-      <p>entstanden</p>
+      <h3>Motive</h3>
+      <p>fotografiert</p>
     </div>
 
     <div class="stat">
       <div class="line"></div>
 
-      <div class="number">
-        <span>0</span>
-        <span>40</span>
-        <span>70</span>
-        <span>100</span>
-      </div>
+      <div class="number" data-target="150">0</div>
 
       <h3>Kreise</h3>
-      <p>pro Tag gesehen</p>
+      <p>entdeckt</p>
     </div>
 
     <div class="stat">
       <div class="line"></div>
 
-      <div class="number">
-        <span>0</span>
-        <span>30</span>
-        <span>60</span>
-        <span>100</span>
-      </div>
+     <div class="number" data-target="80">0</div>
 
-      <h3>Fokus</h3>
-      <p>auf Form & Kontrast</p>
+      <h3>Details</h3>
+      <p>bewusst wahrgenommen</p>
     </div>
 
   </div>
@@ -107,7 +93,6 @@
 
     <div class="gallery">
     
-        <img src="assets/img/TamaraBuetzer_01.jpg" alt="Dossen">
         <img src="assets/img/TamaraBuetzer_02.jpg" alt="Hag">
         <img src="assets/img/TamaraBuetzer_10.jpg" alt="Baumrinde">
         <img src="assets/img/TamaraBuetzer_03.jpg" alt="Schulhaus">
@@ -227,7 +212,45 @@
   <footer>
     <p>© 2026 Tamara Bützer</p>
   </footer>
-  
+
+
+  <!-- JS  für Zahlen Counter-->
+   <script>
+const numbers = document.querySelectorAll(".number");
+
+const startCounter = (num) => {
+  const target = +num.getAttribute("data-target");
+  let count = 0;
+
+  const speed = target / 100; // Geschwindigkeit
+
+  const update = () => {
+    count += speed;
+
+    if (count < target) {
+      num.textContent = Math.floor(count);
+      requestAnimationFrame(update);
+    } else {
+      num.textContent = target;
+    }
+  };
+
+  update();
+};
+
+window.addEventListener("scroll", () => {
+  numbers.forEach(num => {
+    if (!num.classList.contains("started")) {
+      const pos = num.getBoundingClientRect().top;
+
+      if (pos < window.innerHeight - 100) {
+        num.classList.add("started");
+        startCounter(num);
+      }
+    }
+  });
+});
+</script>
 
     </body>
 </html>
