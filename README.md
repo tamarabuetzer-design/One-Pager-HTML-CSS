@@ -2,24 +2,31 @@
 **Minimalistische Fotografie-Webseite in Schwarz-Weiss**
 
 
-## Projektbeschreibung
-In diesem Projekt habe ich eine responsive OnePage-Website entwickelt, die meine fotografische Bildserie zum Thema "Kreis in Schwarz/Weiss" präsentiert.
 
-Das Ziel war ein klares, minimalistisches Webdesign, das den Fokus vollständig auf die visuelle Wirkung der Fotografien legt. Die Bildserie untersucht die geometrische Form des Kreises und zeigt, wie sie in alltäglichen Objekten und Strukturen wiederzufinden ist. Durch die bewusste Reduktion auf Schwarz-Weiss werden Farben ausgeblendet – dadurch treten Kontraste, Licht, Schatten und Formen stärker hervor.
+
+
+## Projektbeschreibung
+
+In diesem Projekt habe ich eine responsive OnePage-Website entwickelt, die meine fotografische Bildserie zum Thema "Kreis in Schwarz/Weiss" präsentiert. Ziel war es, eine moderne und übersichtlichen One-Pager zu gestalten.
 
 Die Website ist als digitale Ausstellung aufgebaut und führt Besucher:innen durch verschiedene Bereiche:
-
 - **Einführung** – Überblick über das Projekt  
 - **Galerie** – Präsentation der Bildserie  
 - **Konzept** – Hintergrund und Idee  
 - **Vergleich (Before/After)** – Einblick in den Entstehungsprozess  
+
+Der Fokus lag dabei auf einem klaren, minimalistischen Webdesign, das bewusst auf überflüssige Elemente verzichtet. Dadurch wird die Aufmerksamkeit vollständig auf die visuelle Wirkung der Fotografien gelenkt. Die Bildserie beschäftigt sich intensiv mit der geometrischen Form des Kreises und untersucht, wie diese in alltäglichen Objekten, Architekturen und Strukturen vorkommt.
+Durch die gezielte Reduktion auf Schwarz-Weiss-Fotografie werden Farben ausgeblendet, sodass andere gestalterische Aspekte stärker in den Vordergrund treten. Insbesondere Kontraste, Licht und Schatten sowie Formen und Strukturen gewinnen dadurch an Bedeutung und verleihen den Bildern eine klarere, ausdrucksstärkere Wirkung.
 
 
 ## Technologien
 - HTML  
 - CSS  
 - CSS Grid (für Layout & Galerie)  
-- Responsive Design  
+- Responsive Design 
+- Dark/Light Mode
+- Animationen
+
 
 
 ##  Design & Gestaltung
@@ -40,18 +47,15 @@ Die Website ist als digitale Ausstellung aufgebaut und führt Besucher:innen dur
 
 **Herausforderungen**
 - Balance zwischen Minimalismus und visueller Spannung
-- Umsetzung eines funktionierenden responsive Designs
-- Anpassung für verschiedene Bildschirmgrössen  
+- Umsetzung eines funktionierenden responsive Designs  
 - Präzise Gestaltung mit CSS (Abstände, Layouts, Details)
 
 **Lernfortschritt**
-Durch dieses Projekt habe ich gelernt:
-- Wie wichtig ein **gutes Konzept vor dem Programmieren** ist  
-- Den effektiven Einsatz von **CSS Grid**  
-- Grundlagen und Feinheiten von **Responsive Design**  
-- Wie stark **kleine Designentscheidungen** die Gesamtwirkung beeinflussen  
+- Wie wichtig ein gutes Konzept vor dem Programmieren ist  
+- Den effektiven Einsatz von CSS Grid 
+- Grundlagen und Feinheiten von Responsive Design 
+- Wie stark kleine Designentscheidungen die Gesamtwirkung beeinflussen  
 
 
 ## Fazit
-Das Projekt zeigt, wie durch bewusst reduziertes Design und klare Struktur eine starke visuelle Wirkung erzielt werden kann. Die Kombination aus Fotografie und Webdesign ermöglicht eine moderne Form der digitalen Präsentation.
-
+Das Projekt zeigt, wie durch bewusst reduziertes Design und klare Struktur eine starke visuelle Wirkung erzielt werden kann. 
