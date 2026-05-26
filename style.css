@@ -34,26 +34,6 @@ body {
 }
 
 
-/* Schriften */
-h1, h2, h3 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-}
-
-h1 {
-  font-size: 4rem;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-p {
-  line-height: 1.6;
-  max-width: 600px;
-}
-
 
 /* Typo */
 h1, h2, h3 {
@@ -122,7 +102,7 @@ section {
 /* Hero */
 .hero {
   height: 100vh;
-  background: url("assets/img/TamaraBuetzer_08.jpg") center/cover no-repeat;
+  background: url("assets/img/TamaraBuetzer_01.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -269,7 +249,7 @@ form textarea:focus {
 }
 
 form input {
-  height: 40 px;
+  height: 40px;
 }
 
 
@@ -279,4 +259,86 @@ footer {
   padding: 20px;
   font-size: 0.8rem;
   opacity: 0.6;
+}
+
+
+/* Responsiv */
+
+/* Tablet */
+@media (max-width: 1024px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .concept {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .compare-container {
+    gap: 20px;
+  }
+
+}
+
+
+/* Handy */
+@media (max-width: 768px) {
+
+  /* Navigation */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  /* Hero */
+  .hero {
+    height: 80vh;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  /* Sections */
+  section {
+    padding: 80px 5%;
+  }
+
+  /* Galerie */
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  /* Konzept */
+  .concept {
+    grid-template-columns: 1fr;
+  }
+
+  /* Karten */
+  .card {
+    padding: 25px;
+  }
+
+  .card img {
+    height: 300px;
+  }
+
+  /* Vergleich */
+  .compare-container {
+    grid-template-columns: 1fr;
+  }
+
 }
