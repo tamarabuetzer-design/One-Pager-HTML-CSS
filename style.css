@@ -1,5 +1,5 @@
 /* BASICS */
-* {
+ *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -72,15 +72,25 @@ section h2 {
   margin-bottom: 40px;
 }
 
-section p {
-  margin: 0 auto;
+.about p {
   text-align: center;
+  margin: 0 auto;
+}
+
+.compare p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact p {
+  text-align: center;
+  margin: 0 auto;
 }
 
 
 
 /* Navigation */
-.navbar {
+.navBar {
   position: fixed;
   top: 0;
   width: 100%;
@@ -93,13 +103,13 @@ section p {
   z-index: 1000;
 }
 
-.navbar ul {
+.navBar ul {
   display: flex;
   list-style: none;
   gap: 20px;
 }
 
-.navbar a {
+.navBar a {
   color: inherit;
   text-decoration: none;
   font-size: 0.9rem;
@@ -183,16 +193,13 @@ section {
   margin-bottom: 30px;
 }
 
-
-/* Zahlen */
 .number {
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
 }
 
 
-
-/* Text darunter */
+/*  Zahlen Counter Text darunter */
 .stat h3 {
   margin-top: 20px;
   font-size: 1.5rem;
@@ -231,7 +238,7 @@ section {
 }
 
 
-/* Konzept*/
+/* Konzept mit Karten*/
 
 .concept {
   display: grid;
@@ -305,7 +312,7 @@ section {
 
 
 
-/* Kontakt */
+/* Kontaktformular */
 form {
   max-width: 60rem;        
   display: flex;
