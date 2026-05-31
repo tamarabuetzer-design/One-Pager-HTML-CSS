@@ -7,7 +7,7 @@
 
 ## Projektbeschreibung
 
-In diesem Projekt habe ich eine responsive OnePage-Website entwickelt, die meine fotografische Bildserie zum Thema "Kreis in Schwarz/Weiss" präsentiert. Ziel war es, eine moderne und übersichtlichen One-Pager zu gestalten.
+In diesem Projekt habe ich eine responsive OnePage-Website entwickelt, die meine fotografische Bildserie zum Thema "Kreis in Schwarz/Weiss" präsentiert. Ziel war es, einen modernen und übersichtlichen One-Pager zu gestalten.
 
 Die Website ist als digitale Ausstellung aufgebaut und führt Besucher:innen durch verschiedene Bereiche:
 - **Einführung** – Überblick über das Projekt  
